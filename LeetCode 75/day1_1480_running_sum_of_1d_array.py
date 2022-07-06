@@ -1,8 +1,10 @@
 # Problem - https://leetcode.com/problems/running-sum-of-1d-array/
 
+from typing import List
+
 
 class Solution:
-    def runningSum(self, nums: list[int]) -> list[int]:
+    def runningSum(self, nums: List[int]) -> List[int]:
         running_sum = 0
         running_sums = []
         for num in nums:

@@ -1,8 +1,10 @@
 # Problem - https://leetcode.com/problems/find-pivot-index/
 
+from typing import List
+
 
 class Solution:
-    def pivotIndex(self, nums: list[int]) -> int:
+    def pivotIndex(self, nums: List[int]) -> int:
         total_sum = sum(nums)
         left_sum = 0
         right_sum = total_sum
