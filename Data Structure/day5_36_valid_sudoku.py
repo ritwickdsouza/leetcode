@@ -1,8 +1,7 @@
 # Problem - https://leetcode.com/problems/valid-sudoku/
 
-from typing import List
-
 import itertools
+from typing import List
 
 
 class Solution:
